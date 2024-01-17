@@ -1,0 +1,33 @@
+{
+  "masters": [
+    {
+      "id": "k8s-master1",
+      "ip": "10.10.1.81"
+    }, {
+      "id": "k8s-master2",
+      "ip": "10.10.1.82"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "k8s-node1",
+      "ip": "10.10.1.83"
+    }, {
+      "id": "k8s-node2",
+      "ip": "10.10.1.84"
+    }
+  ],
+  "proxy": [
+    {
+      "id": "k8s-proxy",
+      "ip": "10.10.1.85"
+    }
+  ],
+  "interfaces": [
+    {
+      "id":   "inet",
+      "name": "ens3"
+    }
+  ]
+}
+
